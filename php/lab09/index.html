@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Lab 09 - PHP</title>
+</head>
+<body>
+  <h1>Registro de estudiante (PHP)</h1>
+  <!-- novalidate: desactiva la validación del navegador para probar la del servidor -->
+  <form action="procesar.php" method="POST" novalidate>
+    <label>Nombre: <input type="text" name="nombre" maxlength="60"></label><br><br>
+    <label>Email: <input type="email" name="email"></label><br><br>
+    <label>Edad: <input type="number" name="edad"></label><br><br>
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>
